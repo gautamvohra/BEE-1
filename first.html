@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ST-1(BEE)</title>
+    <link href="./first.css" rel="stylesheet">
+</head>
+<body>
+    <div id="outer">
+        <div id="heading">
+            <p id="para">Student Entry Form</p>
+        </div>
+        <div id="form">
+            <div id="left">
+                <div id="top"></div>
+                <div id="form_div">
+                    <form action="/addinfo" method="post">
+                        <input type="text" id="name" class="input" name="name" placeholder="Full Name"><br>
+                        <input type="text" id="rollno" class="input" name="rollno" placeholder="Roll Number"><br>
+                        <input type="text" id="add" class="input" name="add" placeholder="Address"><br>
+                        <input type="email" id="email" class="input" name="email" placeholder="College E-mail"><br>
+                        <input type="text" id="eng" class="input" name="eng" placeholder="English Marks"><br>
+                        <input type="text" id="math" class="input" name="math" placeholder="Maths Marks"><br>
+                        <input type="text" id="phy" class="input" name="phy" placeholder="Physics Marks"><br>
+                        <input type="text" id="chem" class="input" name="chem" placeholder="Chemistry Marks"><br>
+                        <input type="text" id="bio" class="input" name="bio" placeholder="Biology Marks"><br>
+                        <button type="submit" id="btn" class="buttons">Submit</button>
+                        <a href="/userData"><button type="button" class="buttons">data</button></a>
+                    </form>
+                </div>
+                <div id="bottom"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./demo.js"></script>
+</body>
+</html>
